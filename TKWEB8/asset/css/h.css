@@ -1,0 +1,260 @@
+.tinTuc {
+    background-color: rgb(246, 239, 239);
+    padding-top: 80px;
+}
+
+
+
+.tinTuc .container .row .col-12:first-child {
+    display: flex;
+    justify-content: center;
+    color: rgb(195, 5, 8);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.tinTuc .container .row .col-12:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    color: rgb(195, 5, 8);
+}
+
+
+
+
+.tinTuc .container .row .col-3:first-child {
+    font-size: 33px;
+    font-weight: bold;
+    color: rgb(195, 5, 8);
+}
+
+.tinTuc .container .row .col-8 {
+    display: flex;
+height: 270px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+
+.tinTuc .container .row .col-8 .the-to {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0px 15px 0px 0px;
+}
+
+.tinTuc .container .row .col-8 .the-to:hover img {
+    transform: scale(1.1);
+}
+
+.tinTuc .container .row .col-8 .anh-to {
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.tinTuc .container .row .col-8 .anh-to img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tinTuc .container .row .col-8 .noiDung {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+
+}
+
+.tinTuc .container .row .col-8 .noiDung .ngayThang {
+    width: 15%;
+    height: 100%;
+    margin-right: 5px;
+
+}
+
+.tinTuc .container .row .col-8 .noiDung .thoiGian {
+    width: 100%;
+    border-right: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(195, 5, 8);
+}
+
+.tinTuc .container .row .col-8 .noiDung .thoiGian b {
+    font-size: 30px;
+}
+
+.tinTuc .container .row .col-8 .noiDung .thongTin {
+
+    width: 80%;
+    height: 100%;
+
+}
+
+.tinTuc .container .row .col-8 .noiDung .thongTin span {
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+.tinTuc .container .row .col-8 .noiDung .thongTin p {
+    font-size: 10px;
+    color: rgb(129, 122, 122);
+}
+
+
+
+.tinTuc .container .row .col-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 270px;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+
+.tinTuc .container .row .col-4 a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.tinTuc .container .row .col-4 .the {
+    width: 100%;
+    height: 100%;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+.tinTuc .anh {
+    width: 100%;
+    height: 73%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.tinTuc .the img {
+    transition: transform 0.3s ease;
+
+}
+
+.tinTuc .the:hover img {
+    transform: scale(1.1);
+}
+
+.tinTuc .container .row .the a img {
+    width: 100%;
+    height: 100%;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.tinTuc .container .row .col-4 .box-content {
+    color: rgb(111, 111, 114);
+    margin-top: 0px;
+    display: flex;
+    padding-right: 10px;
+    height: 15%;
+    width: 100%;
+
+}
+
+.tinTuc .container .row .col-4 .box-content .content {
+    width: 20%;
+    height: 100%;
+    border-right: 3px solid;
+    padding: 0px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tinTuc .date {
+    font-size: 9px;
+}
+
+.tinTuc .tap {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+.tinTuc .info {
+    height: 100%;
+    width: 80%;
+    padding-left: 10px;
+    color: black;
+}
+
+.tinTuc .info p {
+    font-size: 76%;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+
+
+.tinTuc .chuyenDoi {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tinTuc .col-12 ul li a {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+.tinTuc .col-12 ul li a:hover {
+    background-color: rgb(195, 5, 8);
+    color: white;
+}
+
+.tinTuc .col-12 .one {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.tinTuc .col-12 .two {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.tinTuc .chuyenDoi ul li a {
+    color: rgb(195, 5, 8);
+}
+
+.tinTuc .chuyenDoi nav ul .one {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.tinTuc .chuyenDoi nav ul .two {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

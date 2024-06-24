@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="asset/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="asset/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/chung.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Mái ấm gia đình Việt</title>
+</head>
+
+<body>
+    <div class=" dashboard">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                class="fa-solid fa-bars"></i></button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Mái ấm gia đình Việt</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+          <li><a href="gioiThieu.html">Giới thiệu</a></li>
+          <li><a href="tapPhatSong1.html">Tập phát sóng</a></li>
+          <li><a href="hoanCanh.html">Hoàn cảnh</a></li>
+          <li><a href="tinTuc.html">Tin tức</a></li>
+          <li><a href="lienhe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="trangchu.html"><img class="logo"
+                src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Group-19345.svg" alt=""></a>
+
+        <div class="section-one">
+            <a href="trangchu.html">
+                <div class="menu-trangchu">Trang chủ</div>
+            </a>
+
+            <a href="gioiThieu.html">
+                <div class="menu-gioithieu">Giới thiệu</div>
+            </a>
+
+            <a href="tapPhatSong1.html">
+                <div class="menu-tapphatsong">Tập phát sóng</div>
+            </a>
+
+            <a href="hoanCanh.html">
+                <div class="menu-hoancanh" >Hoàn cảnh</div>
+            </a>
+
+            <a href="tinTuc.html">
+                <div class="menu-tintuc" style="color: yellow;">Tin tức</div>
+            </a>
+
+            <a href="lienhe.html">
+                <div class="menu-lienhe">Liên hệ</div>
+            </a>
+
+
+
+            <div class="menu-search">
+                <input type="text" id="search">
+                <button class="button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <button class="button-search1"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="hopThoaiTimKiem" id="search-box">
+        <div>
+            <input type="text" id="timKiem">
+            <button class="button-search3" id="search-button">Tìm kiếm</button>
+            <button class="huy">Hủy</button>
+        </div>
+    </div>
+    <div class="container-fluid cauChuyen">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-11 col-md-9 col-lg-7 mx-auto">
+                <p class="chuDe">Câu chuyện về chương trình</p>
+                <p class="tieuDe">Mái ấm gia đình Việt – Tập 86: Quang Đăng, Jang Mi khóc nghẹn khi chứng kiến hoàn cảnh
+                    của các em nhỏ mồ côi trong Mái Ấm Gia Đình Việt</p>
+                <p class="tomGon">Hạnh phúc lớn nhất của các bậc làm cha, làm mẹ đó chính là nhìn thấy các con của mình
+                    được khôn lớn nên người. Các em nhỏ trong Mái ấm gia đình Việt – Tập 86 tuy rằng phải lớn lên trong
+                    điều kiện hoàn cảnh vô cùng khó khăn, nhưng bên trong các em lại mang một sức mạnh ý chí vô cùng
+                    lớn. Đó cũng là điều khiến MC Quyền Linh cùng hai nghệ sĩ cảm thấy vô cùng tự hào về các em.</p>
+
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/05/hinh-1-1200x800.jpg" alt="">
+                    <p>MC Quyền Linh hạnh phúc chào đón hai khách mời đến với Mái ấm gia đình Việt – Tập 89</p>
+                </div>
+
+                <p>
+                    Tập 86 chương trình Mái Ấm Gia Đình Việt với sự dẫn dắt của MC Quyền Linh. Hai khách mời tuần này là
+                    biên đạo múa Quang Đăng và ca sĩ Jang Mi sẽ cùng góp sức giúp đỡ 3 hoàn cảnh là em Trần Minh Tố
+                    (2013), em Võ Đặng Thùy Trâm (2012) và em Trương Tuấn Kiệt (2012) vượt qua khó khăn trong cuộc sống.
+<br><br>
+                    Hoàn cảnh đầu tiên là em Trần Minh Tố (2013), hiện sống cùng mẹ và anh trai ở Sơn Hòa, Phú Yên. Cha
+                    em mất do bị đột quỵ năm 2021, lúc còn sống đi lượm đồ nhựa và làm thuê. Mẹ em là chị Thái Thị Thúy
+                    Ái (1990), một mình nuôi con bằng nghề chặt mía thuê, thu nhập mỗi ngày khoảng 120 nghìn đồng nhưng
+                    mỗi năm chỉ làm được 2 tháng theo mùa vụ. Thời gian còn lại chị Ái làm thuê tự do, ai thuê gì làm
+                    nấy, thu nhập không ổn định.
+<br><br>
+                    Anh trai của Minh Tố năm nay học lớp 9 nên cũng chưa thể làm gì kiếm tiền phụ mẹ. Những hôm chị Ái
+                    đi làm, bà nội Trần Thị Lý ở gần nhà chính là người lo cơm nước cho hai anh em. Hai anh em rất
+                    thương mẹ, nên sau giờ học thường phụ mẹ nhổ cỏ, làm vườn và làm việc nhà. Căn nhà hiện tại đã xây
+                    được 12 năm, đã xuống cấp nhiều chỗ, mái tôn cũ nát và bị dột nhiều chỗ những khi trời mưa.
+<br><br>
+                    Từ khi chồng mất, chị Ái suy sụp nhiều nhưng vẫn cố gắng để kiếm tiền lo cho các con. Nhiều lúc, chị
+                    không kiếm được nhiều tiền nên cả nhà phải nhịn nhặt từng chút để chi tiêu, ăn ít lại để qua bữa
+                    khiến các nghệ sĩ xót xa. MC Quyền Linh đặc biệt thương cảm trước sự hiểu chuyện của anh em bé Minh
+                    Tố khi các em luôn nhớ lời dạy của cha trước khi mất. Minh Tố tự hứa sẽ luôn chăm ngoan, học giỏi,
+                    nghe lời để sau này phấn đấu chăm sóc mẹ.
+<br><br>
+                    Ca sĩ Jang Mi xúc động đến khóc nghẹn khi theo dõi video clip giới thiệu nhân vật. Nữ ca sĩ nức nở
+                    một lúc lâu vì không nói nên lời rồi động viên, khích lệ mẹ con em Minh Tố cố gắng vượt qua nỗi đau.
+                    Biên đạo múa Quang Đăng bày tỏ sự đồng cảm với anh em Minh Tố bởi chính anh cũng đã mất đi cha mẹ.
+                    “Thời điểm hiện tại thì tôi cũng là một người mồ côi. Tôi rất hiểu cảm giác của các em những lúc nhớ
+                    về cha mình. Mong rằng các em sẽ cố gắng, nhất là anh của Minh Tố, hãy mạnh mẽ lên bởi em sẽ là trụ
+                    cột chăm sóc cho mẹ và em trai sau này”, Quang Đăng bộc bạch.
+                </p>
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/05/HINH-2-MAGDV-TAP-86-1200x800.jpg"
+                        alt="">
+                    <p>Là một chàng trai cùng có mạnh mẽ đến mấy em nhỏ mồ côi vẫn bật khóc nức nỡ khi được hỏi về những
+                        kỷ niệm cùng ba</p>
+                </div>
+                <p>
+                    Hoàn cảnh tiếp theo là em Võ Đặng Thùy Trâm (2012), hiện sống cùng mẹ và anh trai ở Bắc Bình, Bình
+                    Thuận. Cha của Thùy Trâm mất do bệnh ung thư gan khi em mới vào lớp 1. Mẹ em là chị Đặng Thị Hồng
+                    (1986), làm nông thuê gần nhà, thu nhập khoảng 6 triệu/tháng. Tuy nhiên, do phải phụ thuộc vào mùa
+                    vụ nên không phải lúc nào chị Hồng cũng có việc ổn định.
+<br><br>
+                    Anh trai của Thùy Trâm đang học lớp 8, cũng chưa thể kiếm tiền phụ giúp cả nhà được. Hằng tháng, địa
+                    phương hỗ trợ cho gia đình số tiền là 720 nghìn đồng. Thùy Trâm và anh trai cũng được giảm 50% học
+                    phí vì thuộc đối tượng hộ cận nghèo. Hiện tại, gia đình đang nợ 45 triệu đồng nhưng chưa thể trả
+                    hết. Biết mẹ không có tiền nên hai anh em phụ chú út chăn nuôi gà, sau giờ học, anh em Trâm chia
+                    nhau làm việc nhà cho mẹ đỡ cực. Lời hứa cố gắng học giỏi để sau này chăm sóc mẹ khi về già của Thùy
+                    Trâm khiến nhiều người nghẹn lòng.
+<br><br>
+                    MC Quyền Linh xúc động hình ảnh người mẹ sớm hôm tảo tần, dù thường xuyên mệt mỏi cũng không dám đi
+                    bệnh viện vì sợ khám biết được nhiều bệnh, không có tiền trị lại khổ cho các con. Đặc biệt, biết
+                    Thùy Trâm sợ bạn bè cười chê mình không cha nên khi ai hỏi, em điều nói cha đi làm rất xa chứ không
+                    dám nói cha mất khiến MC Quyền Linh chỉ biết đau lòng. Hình ảnh đứa trẻ mồ côi chỉ ước mơ thời gian
+                    quay trở lại, được bên cạnh cha, được có một gia đình hạnh phúc làm cho ông bố hai con nhiều phần
+                    bất lực.
+<br><br>
+                    Quang Đăng dành nhiều lời động viên, an ủi trước sự hiểu chuyện của Thùy Trâm. Nam khách mời khích
+                    lệ nhân vật hãy cố gắng phấn chấn, dù trong hoàn cảnh nào đi nữa cũng không được bỏ học. “Với anh,
+                    kiến thức chính là sức mạnh. Em học nhiều, thấy em nên người chính là liều thuốc tốt nhất cho cha
+                    mẹ. Khi mẹ thấy em thành công, trở thành người có ích cho xã hội thì mẹ sẽ luôn có động lực tiếp tục
+                    sống với em để nhìn em nên người hơn”, Quang Đăng nói.
+                </p>
+
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/05/HINH-3-MAGDV-TAP-86-1-1108x800.jpg"
+                        alt="">
+                    <p>Hình ảnh bà nội của em Kiệt khóc nghẹn lên bên trong cánh gà khiến cả trường quay đều cảm thấy
+                        xót xa</p>
+                </div>
+                <p>
+                    Hoàn cảnh còn lại là em Trương Tuấn Kiệt (2012), hiện đang sống cùng bà nội ở Thuận Bắc, Ninh Thuận.
+                    Cha mẹ của Tuấn Kiệt ly hôn khi em mới học lớp 2, sau đó cha dẫn em về ở cùng bà nội. Đến năm 2022,
+                    cha em mất do bị ung thư. Mẹ đã có gia đình mới, thỉnh thoảng gọi về hỏi thăm em một lần.
+<br><br>
+                    Bà nội em là bà Lê Thị Lợt (72 tuổi), bị cao huyết áp và đau khớp, bệnh tình ngày một nghiêm trọng
+                    hơn nhưng và không dám đi bệnh viện vì sợ tốn tiền. Dù sức khỏe yếu nhưng hằng ngày, bà Lợt vẫn phải
+                    dậy từ rất sớm để chuẩn bị cơm và bánh mì bán ở chợ. Những ngày bán hết, bà kiếm được 150 nghìn
+                    đồng. Còn bán không được thì mang về nhà bà cháu cùng ăn. Là đứa trẻ hiểu chuyện, Tuấn Kiệt thường
+                    tranh thủ lúc nghỉ học để phụ bà dọn hàng ra chợ bán.
+<br><br>
+                    Sự chân thật, chất phác của bà Lê Thị Lợt khi trò chuyện với mọi người khiến MC Quyền Linh và các
+                    nghệ sĩ vừa thương cảm vừa xúc động. Anh cho rằng, ở tuổi 72 thì bà Lợt phải được con cái phụng
+                    dưỡng nhưng vẫn phải ngày ngày dậy sớm buôn bán kiếm tiền nuôi cháu nội. Đặc biệt, tình cảm của hai
+                    bà cháu nhân vật dành cho nhau càng khiến nam MC nghẹn ngào. “Bà thì mong sống thêm vài năm để lo
+                    cho cháu đến lớn. Cháu cũng mong bà sống nhiều năm để sau này cháu lớn lên kiếm tiền nuôi bà, đưa bà
+                    đi chơi, báo hiếu công ơn bà chăm sóc mình. Sự hiểu chuyện của em Tuấn Kiệt và tình yêu thương của
+                    bà nội khiến tôi không kiềm được”, MC Quyền Linh xúc động nói.
+                </p>
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/05/HINH-5-MAGDV-TAP-86-1200x800.jpg"
+                        alt="">
+                    <p>Biên đạo múa Quang Đăng kết hợp với các em học sinh dành tặng những vũ đạo vô cùng đặc sắc cho bà
+                        con khán giả Khánh Hòa</p>
+                </div>
+                <p>
+                    Xót xa trước hoàn cảnh của ba em nhỏ, hai khách mời hạ quyết tâm nỗ lực hết mình để vượt qua các thử
+                    thách trong chương trình. Theo đó, ở phần thi phụ, biên đạo múa Quang Đăng và ca sĩ Jang Mi phải
+                    thổi 10 bóng bay rồi dùng hai ống nhựa để đưa bóng về đích. Quang Đăng tự nhận bản thân không giỏi
+                    thổi bóng bay nên nhường nhiệm vụ thổi cho ca sĩ Jang Mi. Bên cạnh đó, nam khách mời sẽ đảm nhận
+                    nhiệm vụ đưa toàn bộ bóng bay về đích. Song, yêu cầu này đã nhanh chóng bị MC Quyền Linh từ chối,
+                    nam MC đề nghị hai khách mời thực hiện thử thách như nhau. Dẫu vậy, với mục đích giúp đỡ các em nhỏ
+                    mồ côi, hai nghệ sĩ khách mời đã giành về quyền ưu tiên cho các gia đình.
+<br><br>
+                    Trong phần thi chính, hai nghệ sĩ khách mời sẽ lần lượt kết hợp với các em nhỏ mồ côi để thực hiện
+                    thử thách ném bowling. Theo đó, người chơi sẽ lấy bóng ở vạch xuất phát, đi qua cầu bập bênh, di
+                    chuyển qua các chướng ngại vật rồi lần lượt ném ngã 22 quả bowling ở vạch đích. Việc phải chạy liên
+                    tục qua các chướng ngại vật khiến các nghệ sĩ dần kiệt sức. Phần ném bowling cũng đòi hỏi sự tập
+                    trung và may mắn cao của người chơi. Nhiều lần, Quang Đăng cố gắng chạy thật nhanh để mang bóng đến
+                    vị trí ném nhưng vì ngắm sai nên ném bóng bị trượt. Sau khi hỗ trợ gia đình đầu tiên, hai khách mời
+                    dần rút được kinh nghiệm cho các vòng sau nhưng thể lực cũng giảm đáng kể. Trong hậu trường, Quang
+                    Đăng vừa nghỉ ngơi vừa trêu tổ sản xuất vì không báo trước trò chơi để anh chuẩn bị tâm lý. Dẫu vậy,
+                    nam biên đạo vẫn kết hợp vô cùng ăn ý khi giúp đỡ các em nhỏ mồ côi trong chương trình.
+                </p>
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/05/HINH-4-MAGDV-TAP-86-1139x800.jpg"
+                        alt="">
+                    <p>Bằng tất cả những nỗ lực của mình trong các thử thách, em Kiệt đã xuất sắc bước vào vòng đặc biệt
+                        rút bảng logo</p>
+                </div>
+                <p>
+                    Buổi ghi hình chương trình Mái Ấm Gia Đình Việt diễn ra tại huyện Diên Khánh, tỉnh Khánh Hòa thu hút
+                    nhiều khán giả ở địa phương đến theo dõi trực tiếp. Các nghệ sĩ và ekip chương trình cũng nhận được
+                    nhiều tình cảm từ bà con địa phương. Trong đó, MC Quyền Linh nhận được nhiều món quà từ khán giả. Ở
+                    hậu trường tập 86, lúc đang nghỉ giải lao thì nam MC được một bé gái mang một gói kẹo đến tặng. Em
+                    bé nhẹ nhàng hôn lên má “bác Quyền Linh” và động viên anh giữ sức khỏe để tiếp tục giúp người khó
+                    khăn. Màn tương tác đáng yêu của ông bố hai con và khán giả nhí khiến cho nhiều người thích thú.
+                    Quyền Linh nói: “Quay chương trình ở Khánh Hòa 3 ngày nay nhận được nhiều quà bánh lắm. Nhiều quà
+                    đến nỗi không ăn hết luôn. Đi đâu cũng được bà con thương yêu như thế này thì tôi đi mãi cũng không
+                    mệt”.
+<br><br>
+                    Trải qua các vòng thi, gia đình em Võ Đặng Thùy Trâm nhận về giải thưởng 15 triệu đồng. Gia đình em
+                    Trần Minh Tố về nhì, nhận được 20 triệu đồng. Còn gia đình em Trương Tuấn Kiệt tiếp tục bước vào
+                    vòng đặc biệt, mang về cơ hội rút 2 bảng logo với giá trị tiền thưởng là 55 triệu đồng từ Tập đoàn
+                    Hoa Sen.
+<br> <br>
+                    Bên cạnh đó, biên đạo Quang Đăng và ca sĩ Jang Mi cũng tặng hai gia đình về nhì và về ba một món quà
+                    đặc biệt. Ngoài ra, các mạnh thường quân có mặt tại buổi ghi hình đã chung tay tặng 40 triệu đồng
+                    cho cả ba gia đình. Như vậy, với sự hỗ trợ của MC Quyền Linh, biên đạo múa Quang Đăng và ca sĩ Jang
+                    Mi cùng sự cố gắng hết mình của ba gia đình đã mang về tổng giải thưởng 90 triệu đồng cùng nhiều
+                    phần quà ý nghĩa.
+<br> <br>
+                    Chương trình Mái Ấm Gia Đình Việt phát sóng vào lúc 20h20 thứ 6 hàng tuần trên kênh HTV7. Chương
+                    trình do Công ty Truyền thông Bee phối hợp với Đài truyền hình TP.HCM thực hiện, với sự đồng hành
+                    của Hệ thống siêu thị Vật liệu xây dựng & Nội thất Hoa Sen Home (Tập đoàn Hoa Sen) và Ống Nhựa Hoa
+                    Sen – Dẫn nguồn hạnh phúc.
+                </p>
+                <hr>
+            </div>
+            <div class="col-11 col-md-9 mx-auto col-lg-3 tinMoi">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>TIN MỚI NHẤT</p>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen3.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/Hinh-2-MAGDV-Tap-89-2048x1356.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>MC Quyền Linh, NSND Trọng Trinh xúc động, cảm phục hình ảnh...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen2.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/anh-1.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>Bất chấp trời đổ mưa, MC Quyền Linh cùng các nghệ sĩ vẫn...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen1.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/05/HINH-2-MAGDV-TAP-86-2048x1366.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>Mái ấm gia đình Việt – Tập 86: Quang Đăng, Jang Mi khóc...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="thongtin-footer">
+            <div class="container-fluid nhanHang">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/hsn-tinh-chinh-size-web-maiam.png"
+                            alt="">
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>MÁI ẤM GIA ĐÌNH VIỆT</li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon.svg"
+                                        alt=""> maiamgiadinhviet</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-1.svg"
+                                        alt=""> GoldenMoonNetwork</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> maiamgiadinhviet.htv7</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> @nghesycongchung</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>NHÀ TÀI TRỢ</li>
+                            <li><a href=""><img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Globe.svg"
+                                        alt=""> www.hoasengroup.vn</a></li>
+                            <li><a href=""><img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Globe.svg"
+                                        alt=""> www.nhuahoasen.vn</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> @hoasengroup.vn</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/01/Untitled-design-1.png"
+                                        alt=""> 0868 000 287</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>ĐƠN VỊ THỰC HIỆN</li>
+                            <li><img class="thucHien"
+                                    src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/BeeComm-Logo-PNG.png"
+                                    alt=""></li>
+                            <li style="margin-top: -13px;"><img class="thucHien"
+                                    src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/htv-giam-kich-thuoc-logo-doi-vi-tri.png"
+                                    alt=""></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-11 mx-auto">
+                        <hr>
+                    </div>
+                    <div class="col-11 mx-auto copy">
+                        <p>Copyright © 2023 Mai Am Gia Dinh Viet. All rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="asset/bootstrap/jquery.slim.min.js"></script>
+    <script src="asset/bootstrap/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="asset/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script>
+        $('.product-list').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+
+        document.querySelector('.button-search').addEventListener('click', function () {
+            var searchValue = document.getElementById('search').value.trim().toLowerCase();
+            if (searchValue === 'tin tức' || searchValue === 'tintuc') {
+                window.location.href = 'tinTuc.html';
+            } else if (searchValue === "") {
+                alert("Vui lòng nhập từ khóa tìm kiếm!");
+            } else {
+                alert("Không tìm thấy kết quả!");
+            }
+        });
+
+        // Khi nút button-search1 được nhấn, hiển thị modal
+        document.querySelector('.button-search1').addEventListener('click', function () {
+            document.getElementById('search-box').style.display = "block";
+        });
+
+        // Khi nút đóng (x) trong modal được nhấn, ẩn modal
+        document.querySelector('.huy').addEventListener('click', function () {
+            document.getElementById('search-box').style.display = "none";
+        });
+
+        // Khi nút "Tìm kiếm" trong modal được nhấn, xử lý tìm kiếm
+        document.getElementById('search-button').addEventListener('click', function () {
+            var searchQuery = document.getElementById('timKiem').value.trim().toLowerCase(); // Sửa ở đây
+            if (searchQuery === 'tin tức' || searchQuery === 'tintuc') { // Sửa ở đây
+                window.location.href = 'tinTuc.html';
+            } else if (searchQuery === "") {
+                alert("Vui lòng nhập từ khóa tìm kiếm!");
+            } else {
+                alert("Không tìm thấy kết quả!");
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="asset/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="asset/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/chung.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Mái ấm gia đình Việt</title>
+</head>
+
+<body>
+    <div class=" dashboard">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                class="fa-solid fa-bars"></i></button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Mái ấm gia đình Việt</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+                    <li><a href="gioiThieu.html">Giới thiệu</a></li>
+                    <li><a href="tapPhatSong1.html">Tập phát sóng</a></li>
+                    <li><a href="hoanCanh.html">Hoàn cảnh</a></li>
+                    <li><a href="tinTuc.html">Tin tức</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="trangchu.html"><img class="logo"
+                src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Group-19345.svg" alt=""></a>
+
+        <div class="section-one">
+            <a href="trangchu.html">
+                <div class="menu-trangchu">Trang chủ</div>
+            </a>
+
+            <a href="gioiThieu.html">
+                <div class="menu-gioithieu">Giới thiệu</div>
+            </a>
+
+            <a href="tapPhatSong1.html">
+                <div class="menu-tapphatsong">Tập phát sóng</div>
+            </a>
+
+            <a href="hoanCanh.html">
+                <div class="menu-hoancanh">Hoàn cảnh</div>
+            </a>
+
+            <a href="tinTuc.html">
+                <div class="menu-tintuc" style="color: yellow;">Tin tức</div>
+            </a>
+
+            <a href="lienhe.html">
+                <div class="menu-lienhe">Liên hệ</div>
+            </a>
+
+
+
+            <div class="menu-search">
+                <input type="text" id="search">
+                <button class="button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <button class="button-search1"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="hopThoaiTimKiem" id="search-box">
+        <div>
+            <input type="text" id="timKiem">
+            <button class="button-search3" id="search-button">Tìm kiếm</button>
+            <button class="huy">Hủy</button>
+        </div>
+    </div>
+    <div class="container-fluid cauChuyen">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-11 col-md-9 col-lg-7 mx-auto">
+                <p class="chuDe">Câu chuyện về chương trình</p>
+                <p class="tieuDe">MC Quyền Linh, NSND Trọng Trinh xúc động, cảm phục hình ảnh người ông còng lưng vác
+                    ngô nuôi 4 cháu nhỏ</p>
+                <p class="tomGon">Những đứa trẻ ngây thơ, vốn có biết gì về “cơm áo gạo tiền” đâu. Chỉ mong cầu được
+                    sống cùng những người thương yêu của mình. Thế nhưng, cuộc đời bất hạnh đưa người thân của các em
+                    lần lượt rời đi, cứ thế mà bỏ lại các em phía sau. MC Quyền Linh, NSND Trọng Trinh và ca sĩ Phạm
+                    Quỳnh Anh đã không khỏi xúc động khi chứng kiến nỗi đau của những đứa trẻ trong Mái ấm gia đình Việt
+                    – Tập 89</p>
+
+                <p>
+                    Với sự dẫn dắt của MC Quyền Linh cùng hai khách mời tuần này là NSND Trọng Trinh và ca sĩ Phạm Quỳnh
+                    Anh sẽ cùng góp sức giúp đỡ 3 hoàn cảnh là em Trần Bảo Ngọc Duy (2012), em Nguyễn Thanh Mai (2011),
+                    và em Hà Văn Thìn (2012) vượt qua khó khăn trong cuộc sống.
+                </p>
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/Hinh-1-MAGDV-Tap-89-931x800.jpg"
+                        alt="">
+                    <p>MC Quyền Linh hạnh phúc chào đón hai khách mời đến với Mái ấm gia đình Việt – Tập 89</p>
+                </div>
+
+                <p>
+                    Hoàn cảnh đầu tiên là em Trần Bảo Ngọc Duy (2012), hiện là học sinh lớp 6, đang sống cùng ông bà nội
+                    và 3 em nhỏ ở Yên Bình, Yên Bái. Cha của Ngọc Duy mất năm 2018 do tai nạn giao thông. Nhắc về cha,
+                    em Ngọc Duy nói: “Con đang chơi thì nghe tin cha bị tai nạn rồi mất. Con không tin đó là sự thật,
+                    con chỉ biết đứng nhìn cha và khóc. Các em con thì còn quá nhỏ, em nhỏ nhất của con lúc đó mới 7
+                    tháng, vẫn chưa biết đi”.
+                    <br><br>
+                    Nỗi đau mất cha chưa kịp nguôi ngoai thì không lâu sau, mẹ em bỏ về nhà ngoại sống, để 4 con ở lại
+                    sống cùng ông bà nội đã ngoài 60 tuổi. Ông của Ngọc Duy là ông Trần Văn Thường (1958), làm bốc vác
+                    ngô từ xưởng lên xe tải, mỗi tấn ngô kiếm được 50 nghìn đồng. Nhưng vì đã lớn tuổi, sức khỏe yếu đi
+                    nên mỗi tháng ông chỉ đi vác ngô được 15-20 ngày, thu nhập không ổn định. Bà nội của em là bà Nguyễn
+                    Thị Liệu (1963), chủ yếu ở nhà lo cơm nước và đưa đón các cháu đi học. Ngoài ra, bà có nhận vàng mã
+                    về nhà làm, mỗi tháng cũng được 700 – 800 nghìn đồng để phụ ông lo sinh hoạt. Bà bị huyết áp cao,
+                    bệnh dạ dày nên thời tiết thay đổi là bà lại đau đầu, chỉ nằm một chỗ và không làm được việc gì.
+                    <br><br>
+                    Ngoài Ngọc Duy ra thì 3 người em còn lại đều còn học tiểu học. Em kế là Trần Huyền Trang, đang học
+                    lớp 4, em khóc khi nhắc đến cha và cũng tự hỏi về mẹ. Câu hỏi “Mẹ ơi, tại sao mẹ lại bỏ con đi vậy?”
+                    vang lên cùng tiếng khóc nấc của những đứa trẻ thèm khát một gia đình trọn vẹn khiến cho ai nghe
+                    cũng quặn lòng. MC Quyền Linh “chịu không nỗi” khi nhìn thấy 4 anh em Ngọc Duy còn quá nhỏ lại thiếu
+                    thốn quá nhiều thứ trong cuộc sống.
+                    <br><br>
+                    Nam MC nói: “Tại sao mẹ lại bỏ con đi? Đó là câu hỏi các con chị dành cho chị đó. Dẫu rằng cuộc sống
+                    của chị có những vấn đề gì đó khó khăn, có nỗi khổ gì đó nhưng chị có biết rằng, con chị cần chị
+                    nhiều lắm không? Chỉ cần gọi điện thoại cũng được, chỉ cần xuất hiện bên các con, ôm con vào lòng
+                    một chút cũng được. Các con chị còn quá nhỏ, không biết gì về tiền bạc để cần tiền cần bạc làm gì mà
+                    con chỉ cần một cái ôm, một lời nói của mẹ là được rồi. Cha đã đi xa không thể về, mẹ cũng bỏ đi nữa
+                    thì các con phải làm sao đây. Nếu chị nghe được những lời này, tôi mong chị hãy về với các con càng
+                    sớm càng tốt, hãy về dù chỉ một chút cũng được”. Anh cũng xót xa vì hình ảnh ông nội em Ngọc Duy đã
+                    lớn tuổi phải còng lưng bốc vác kiếm tiền nuôi bầy cháu nhỏ.
+                    <br><br>
+                    Ngọc Duy còn một em gái khác là Trần Khánh Linh, đang học lớp 2. Và em út Trần Minh Đức năm nay vừa
+                    lên 7 tuổi, những lúc nhớ cha thì em cùng anh chị thắp hương cho cha. Khi được hỏi đã cầu nguyện gì
+                    khi thắp hương, Minh Đức nói: “Con mong muốn cha có nhiều sức khỏe”. Mong ước của đứa trẻ còn quá
+                    ngây thơ khiến ai nghe cũng xót xa. Các em còn quá nhỏ để có thể cảm nhận sự mất mát của gia đình.
+                    <br> <br>
+                    Ca sĩ Phạm Quỳnh Anh xúc động ôm chầm lấy anh em Ngọc Duy. Nữ ca sĩ bật khóc nói: “Em cũng là một
+                    người mẹ nên nhìn thấy hoàn cảnh các em nhỏ là em không thể chịu nỗi. Các em còn quá nhỏ, còn quá
+                    ngây thơ nên có lẽ vẫn chưa hiểu hết rằng cuộc sống của mình sẽ khó khăn như thế nào. Mặc dù hoàn
+                    cảnh của em không khó khăn như các bạn nhỏ nhưng làm mẹ của 3 con thì hàng ngày em cũng cảm nhận
+                    được sự khó khăn. Huống chi ông bà đã lớn tuổi vẫn phải làm việc nặng nhọc để nuôi nấng 4 cháu”.
+                    <br> <br>
+                    NSND Trọng Trinh cảm phục trước sự tần tảo hi sinh của ông bà nội bé Ngọc Duy. “Phải nói ông bà là
+                    những người vĩ đại. Trong hoàn cảnh khó khăn như thế, công việc không ổn định và sức khỏe cũng không
+                    tốt vẫn cố gắng lo cho 4 cháu nội. Cháu Duy cũng rất hiểu chuyện, rất có trách nhiệm khi có những
+                    lời tình cảm với ông bà, nhất là khi cháu có mong muốn tương lai lo cho ông bà”, nam nghệ sĩ nói.
+                </p>
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/Hinh-2-MAGDV-Tap-89-2048x1356.jpg"
+                        alt="">
+                    <p>Ca sĩ Phạm Quỳnh Anh đau lòng gục xuống đất khóc trước hoàn cảnh gia đình em Ngọc Duy</p>
+                </div>
+                <p>
+                    Hoàn cảnh tiếp theo là em Nguyễn Thanh Mai (2011), ở Lý Nhân, Hà Nam. Mẹ của Thanh Mai mất năm 2017 do bệnh ung thư phổi. Đến năm 2021, cha em mất do ung thư tuyến giáp. Gia đình Thanh Mai có tất cả 4 anh em, anh cả là Nguyễn Ngọc Thương (2003), vì gia đình khó khăn nên nghỉ học sớm, đi học nghề mộc ở Hà Nội. Vì vừa học vừa làm thu nhập không cao, thỉnh thoảng mới có dư để gửi ít tiền về cho các em sinh hoạt. Anh hai tên Nguyễn Phúc Hậu (2006), học lớp 12. Em trai út trong nhà là Nguyễn Xuân Trường, mới học đến lớp 3.
+                    <br><br>
+                    Anh trai cả Ngọc Thương khi vừa sinh ra đã bị bệnh tắc ruột, phải phẫu thuật cắt đi một phần ruột. Đến khi vừa mất mẹ, Ngọc Thương lại bị ảnh hưởng tâm lý, phải điều trị một thời gian. Anh hai khi vừa sinh ra cũng bị tắc ruột như anh cả, đã phẫu thuật được 3 lần và đang chờ chữa trị tiếp. Từ ngày cha mất, anh em Thanh Mai trở thành trẻ mồ côi, sống nương tựa lẫn nhau trong căn nhà cũ cha mẹ để lại. Bác gái ruột của Thanh Mai ở gần nhà nên qua lại hằng ngày để chăm sóc, lo cơm nước cho các cháu. Chú ruột cũng lo việc học, cố gắng quan tâm để cháu mình không bị thiếu thốn.
+                    <br><br>
+                    Cả 3 em đều là học sinh giỏi, tự lập và rất hiểu chuyện. Thanh Mai nghẹn ngào nói: “Con không còn cha mẹ nữa nhưng con sẽ cố gắng học hành thật giỏi để sau này kiếm tiền cho anh em được sống quây quần cùng nhau. Con muốn sau này trở thành bác sĩ để chữa bệnh cho mọi người, không để ai bị bệnh mất như cha mẹ con nữa”.
+                    <br><br>
+                    MC Quyền Linh nghẹn ngào vì hoàn cảnh gia đình em Thanh Mai quá khó khăn. Nhìn người anh bị bệnh từ nhỏ phải đi làm xa nhà. Còn 3 em đều đang tuổi ăn tuổi lớn đã chịu cảnh mồ côi, tự bảo bang, chăm sóc nhau trong căn nhà cũ. Nam MC cảm kích vì các bác, các chú của em vẫn luôn ở bên chăm sóc, anh xem đó là một phần an ủi cho cuộc đời quá bi thương của các em nhỏ.
+                </p>
+
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/Hinh-3-MAGDV-Tap-89-1200x800.jpg"
+                        alt="">
+                    <p>Cả trường quay cũng khóc nghẹn theo 3 hoàn cảnh trong Tập 89</p>
+                </div>
+                <p>
+                    Kết quả chung cuộc, gia đình em Nguyễn Thanh Mai nhận về giải thưởng 15 triệu đồng. Gia đình em Hà Văn Thìn về nhì, nhận được 20 triệu đồng. Gia đình em Trần Bảo Ngọc Duy mang về cơ hội rút 2 bảng logo với giá trị tiền thưởng là 60 triệu đồng từ Tập đoàn Hoa Sen.
+                    <br><br>
+                    Bên cạnh đó, thương cho hoàn cảnh ông bà nội đã già phải gồng gánh nuôi 4 cháu nhỏ nên ca sĩ Phạm Quỳnh Anh tặng gia đình em Ngọc Duy 15 triệu đồng. Đồng thời, nữ ca sĩ cũng tặng gia đình em Thìn và em Mai, mỗi gia đình 10 triệu đồng. NSND Trọng Trinh tặng mỗi gia đình một phần quà đặc biệt. Các mạnh thường quân đến theo dõi và ủng hộ trực tiếp nhiều phần quà cho cả ba gia đình. Như vậy, với sự hỗ trợ của MC Quyền Linh, NSND Trọng Trinh và ca sĩ Phạm Quỳnh Anh cùng sự cố gắng hết mình của ba gia đình đã mang về tổng giải thưởng 95 triệu đồng cùng nhiều phần quà ý nghĩa.
+                    <br><br>
+                    Chương trình Mái Ấm Gia Đình Việt phát sóng vào lúc 20h20 thứ 6 hàng tuần trên kênh HTV7. Chương trình do Công ty Truyền thông Bee phối hợp với Đài truyền hình TP.HCM thực hiện, với sự đồng hành của Hệ thống siêu thị Vật liệu xây dựng & Nội thất Hoa Sen Home (Tập đoàn Hoa Sen) và Ống Nhựa Hoa Sen – Dẫn nguồn hạnh phúc.
+                </p>
+              
+                <hr>
+            </div>
+            <div class="col-11 col-md-9 mx-auto col-lg-3 tinMoi">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>TIN MỚI NHẤT</p>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen3.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/Hinh-2-MAGDV-Tap-89-2048x1356.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>MC Quyền Linh, NSND Trọng Trinh xúc động, cảm phục hình ảnh...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen2.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/anh-1.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>Bất chấp trời đổ mưa, MC Quyền Linh cùng các nghệ sĩ vẫn...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen1.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/05/HINH-2-MAGDV-TAP-86-2048x1366.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>Mái ấm gia đình Việt – Tập 86: Quang Đăng, Jang Mi khóc...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="thongtin-footer">
+            <div class="container-fluid nhanHang">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/hsn-tinh-chinh-size-web-maiam.png"
+                            alt="">
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>MÁI ẤM GIA ĐÌNH VIỆT</li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon.svg"
+                                        alt=""> maiamgiadinhviet</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-1.svg"
+                                        alt=""> GoldenMoonNetwork</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> maiamgiadinhviet.htv7</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> @nghesycongchung</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>NHÀ TÀI TRỢ</li>
+                            <li><a href=""><img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Globe.svg"
+                                        alt=""> www.hoasengroup.vn</a></li>
+                            <li><a href=""><img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Globe.svg"
+                                        alt=""> www.nhuahoasen.vn</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> @hoasengroup.vn</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/01/Untitled-design-1.png"
+                                        alt=""> 0868 000 287</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>ĐƠN VỊ THỰC HIỆN</li>
+                            <li><img class="thucHien"
+                                    src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/BeeComm-Logo-PNG.png"
+                                    alt=""></li>
+                            <li style="margin-top: -13px;"><img class="thucHien"
+                                    src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/htv-giam-kich-thuoc-logo-doi-vi-tri.png"
+                                    alt=""></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-11 mx-auto">
+                        <hr>
+                    </div>
+                    <div class="col-11 mx-auto copy">
+                        <p>Copyright © 2023 Mai Am Gia Dinh Viet. All rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="asset/bootstrap/jquery.slim.min.js"></script>
+    <script src="asset/bootstrap/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="asset/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script>
+        $('.product-list').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+
+        document.querySelector('.button-search').addEventListener('click', function () {
+            var searchValue = document.getElementById('search').value.trim().toLowerCase();
+            if (searchValue === 'tin tức' || searchValue === 'tintuc') {
+                window.location.href = 'tinTuc.html';
+            } else if (searchValue === "") {
+                alert("Vui lòng nhập từ khóa tìm kiếm!");
+            } else {
+                alert("Không tìm thấy kết quả!");
+            }
+        });
+
+        // Khi nút button-search1 được nhấn, hiển thị modal
+        document.querySelector('.button-search1').addEventListener('click', function () {
+            document.getElementById('search-box').style.display = "block";
+        });
+
+        // Khi nút đóng (x) trong modal được nhấn, ẩn modal
+        document.querySelector('.huy').addEventListener('click', function () {
+            document.getElementById('search-box').style.display = "none";
+        });
+
+        // Khi nút "Tìm kiếm" trong modal được nhấn, xử lý tìm kiếm
+        document.getElementById('search-button').addEventListener('click', function () {
+            var searchQuery = document.getElementById('timKiem').value.trim().toLowerCase(); // Sửa ở đây
+            if (searchQuery === 'tin tức' || searchQuery === 'tintuc') { // Sửa ở đây
+                window.location.href = 'tinTuc.html';
+            } else if (searchQuery === "") {
+                alert("Vui lòng nhập từ khóa tìm kiếm!");
+            } else {
+                alert("Không tìm thấy kết quả!");
+            }
+        });
+    </script>
+</body>
+
+</html>

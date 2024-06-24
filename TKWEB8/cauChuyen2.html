@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="asset/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="asset/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/chung.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Mái ấm gia đình Việt</title>
+</head>
+
+<body>
+    <div class=" dashboard">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                class="fa-solid fa-bars"></i></button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Mái ấm gia đình Việt</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+                    <li><a href="gioiThieu.html">Giới thiệu</a></li>
+                    <li><a href="tapPhatSong1.html">Tập phát sóng</a></li>
+                    <li><a href="hoanCanh.html">Hoàn cảnh</a></li>
+                    <li><a href="tinTuc.html">Tin tức</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="trangchu.html"><img class="logo"
+                src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Group-19345.svg" alt=""></a>
+
+        <div class="section-one">
+            <a href="trangchu.html">
+                <div class="menu-trangchu">Trang chủ</div>
+            </a>
+
+            <a href="gioiThieu.html">
+                <div class="menu-gioithieu">Giới thiệu</div>
+            </a>
+
+            <a href="tapPhatSong1.html">
+                <div class="menu-tapphatsong">Tập phát sóng</div>
+            </a>
+
+            <a href="hoanCanh.html">
+                <div class="menu-hoancanh">Hoàn cảnh</div>
+            </a>
+
+            <a href="tinTuc.html">
+                <div class="menu-tintuc" style="color: yellow;">Tin tức</div>
+            </a>
+
+            <a href="lienhe.html">
+                <div class="menu-lienhe">Liên hệ</div>
+            </a>
+
+
+
+            <div class="menu-search">
+                <input type="text" id="search">
+                <button class="button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <button class="button-search1"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="hopThoaiTimKiem" id="search-box">
+        <div>
+            <input type="text" id="timKiem">
+            <button class="button-search3" id="search-button">Tìm kiếm</button>
+            <button class="huy">Hủy</button>
+        </div>
+    </div>
+    <div class="container-fluid cauChuyen">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-11 col-md-9 col-lg-7 mx-auto">
+                <p class="chuDe">Hậu trường</p>
+                <p class="tieuDe">Bất chấp trời đổ mưa, MC Quyền Linh cùng các nghệ sĩ vẫn tiếp tục thực hiện trọn vẹn 3
+                    ngày ghi hình Mái ấm gia đình Việt tại Yên Bái</p>
+                <p class="tomGon">Trong các ngày 7,8,9/6, chương trình Mái ấm gia đình Việt với sự dẫn dắt của MC Quyền
+                    Linh đã có mặt tại trường THPT Lý Thường Kiệt, Thành phố Yên Bái để tiếp tục trên hành trình mang
+                    hạnh phúc, sẻ chia yêu thương cùng các em nhỏ mồ côi.</p>
+
+                <p>
+                    Trong dịp này, chương trình Mái ấm gia đình Việt sẽ mang yêu thương đến gần hơn với 18 gia đình các
+                    em nhỏ mồ côi có hoàn cảnh khó khăn thuộc các tỉnh: Yên Bái, Hòa Bình, Thái Nguyên, Phú Thọ, Lai
+                    Châu, Tuyên Quang và Lạng Sơn với mong muốn mang đến những phần quà ý nghĩa, phần nào san sẻ khó
+                    khăn với các em.
+                </p>
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/anh-1.jpg" alt="">
+                    <p>Bất chấp trời mưa, MC Quyền Linh, diễn viên Doãn Quốc Đam và hoa hậu H’Hen Niê vẫn hết mình với
+                        các thử thách của chương trình</p>
+                </div>
+
+                <p>
+                    Đây là lần thứ 2 chương trình đặt chân đến miền Bắc và cũng là đợt ghi hình đầu tiên của ở khu vực
+                    Tây Bắc. Tham gia đồng hành cùng các gia đình em nhỏ còn có các khách mời nổi tiếng như: NSND Trọng
+                    Trinh, Hoa hậu H’Hen Niê, MC Hồng Nhung, cầu thủ Đoàn Văn Hậu, các ca sĩ Lưu Hương Giang, Phạm Quỳnh
+                    Anh, Dương Hoàng Yến, Đức Phúc, LyLy, Kay Trần, diễn viên Doãn Quốc Đam và diễn viên Thanh Sơn.
+                    <br><br>
+                    Đến với chương trình, nghệ sĩ khách mời sẽ cùng các em nhỏ vượt qua những thử thách, giúp các em và
+                    gia đình của mình nhận được những khoản tiền có giá trị để cải thiện cuộc sống bớt vất vả hơn. Bất
+                    chấp cuối buổi chiều trời mưa bắt đầu nặng hạt nhưng MC Quyền Linh, khách mời diễn viên Doãn Quốc
+                    Đam và hoa hậu H’Hen Niê vẫn hết mình với các thử thách của chương trình. Đông đảo khán giả thành
+                    phố Yên Bái vẫn nhiệt tình cổ vũ cho các hoàn cảnh khó khăn tham gia chương trình.
+                </p>
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/anh-2-1200x800.jpg"
+                        alt="">
+                    <p>Khán giả Thành phố Yên Bái che dù theo dõi trực tiếp chương trình Mái ấm gia đình Việt</p>
+                </div>
+                <p>
+                    Chương trình truyền hình thực tế Mái ấm gia đình Việt là dự án thiện nguyện được tài trợ bởi Hệ thống siêu thị Vật liệu xây dựng và Nội thất Hoa Sen Home (Tập đoàn Hoa Sen) và Ống Nhựa Hoa Sen – Dẫn nguồn hạnh phúc với mong muốn đồng hành, nâng đỡ, hỗ trợ cho trẻ em mồ côi, có hoàn cảnh khó khăn trên khắp cả nước. Sau gần 2 năm phát sóng, Mái ấm gia đình Việt đã đi qua 40 tỉnh thành với 94 chương trình đã sản xuất, hỗ trợ cho 282 hoàn cảnh khó khăn cùng các em nhỏ mồ côi với sự tham gia của 186 nghệ sĩ. Tổng giá trị tiền thưởng được trao đi là hơn 9 tỷ đồng, cùng những món quà ý nghĩa từ các nghệ sĩ khách mời, các mạnh thường quân.
+                    <br><br>
+                    Hòa chung bầu không khí trong chuỗi ghi hình Mái ấm gia đình Việt, các đêm ngày 7,8/6 sẽ diễn ra những đêm biểu diễn văn nghệ vô cùng đặc sắc. Cụ thể, đêm 7/6, cuộc thi Yên Bái Best Dance Crew 2024 sẽ diễn ra tại trường THPT Lý Thường Kiệt. Đây là sự kiện vũ đạo lần đầu tiên được xuất hiện tại Yên Bái, do Tập đoàn Hoa Sen tổ chức dưới sự đồng hành của Hệ thống siêu thị Vật liệu xây dựng và Nội thất Hoa Sen Home. Với mong muốn tạo ra một sân chơi vũ đạo chuyên nghiệp, khuyến khích các bạn trẻ hướng tới những giá trị tinh thần tốt đẹp thông qua bộ môn thể thao nhảy hiện đại sau những giờ học căng thẳng, mệt mỏi. Đồng thời, lan tỏa sức trẻ, sự năng lượng, sự tươi mới, cũng như được thể hiện, bộc lộ cá tính và tài năng của mình thông qua các động tác vũ đạo.
+                </p>
+
+                <div class="danhMucAnh">
+                    <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/anh-3-1200x800.jpg"
+                        alt="">
+                    <p>Quán quân Yên Bái Best Dance Crew 2024</p>
+                </div>
+                <p>
+                    Đêm 8/6, chương trình “Đêm hội Âm nhạc và Vũ đạo” diễn ra với nhiều tiết mục đặc sắc. Có thể nói, Yên Bái là một điểm sáng rực rỡ trong vùng Tây Bắc Việt Nam, nơi mà vẻ đẹp tự nhiên hòa quyện cùng với nền văn hóa phong phú tạo nên một bức tranh tuyệt vời của đất nước. Nơi đây không chỉ là một điểm đến đẹp mắt mà còn là nơi chứa đựng những giá trị văn hóa sâu sắc và những truyền thống lâu đời của dân tộc. Đồng thời, với sự đa dạng về dân tộc và văn hóa, Yên Bái còn là nơi ghi lại những trang sử lịch sử và truyền thống văn hóa độc đáo của dân tộc Việt Nam. Chính vì vậy, các tiết mục trong “Đêm hội Âm nhạc và Vũ đạo” mang đậm bản sắc dân tộc, được thể hiện bởi những người con của vùng sơn cước Tây Bắc. Song, các tiết mục vũ đạo trẻ trung mang theo sức trẻ, năng lượng của con người nơi đây cũng góp phần làm nóng sân khấu đêm hội.
+                    <br><br>
+                    Ngoài ra, các nhà tài trợ của chương trình như Hệ thống siêu thị Vật liệu xây dựng & Nội thất Hoa Sen Home (Tập đoàn Hoa Sen) và Ống Nhựa Hoa Sen – Dẫn nguồn hạnh phúc còn có các chương trình khuyến mãi, giảm giá “cực sốc” khi mua các sản phẩm tại khu vực gian hàng trưng bày ngay cạnh sân khấu chương trình Mái ấm gia đình Việt. Bên cạnh đó, còn có các phần bố thăm trúng thưởng, với tổng giá trị lên đến hơn 10 triệu đồng.
+                    <br><br>
+                    Đón xem chương trình Mái Ấm Gia Đình Việt lên sóng lúc 20h20 thứ 6 hàng tuần trên kênh HTV7. Chương trình do Công ty Truyền thông Bee phối hợp với Đài truyền hình TP.HCM thực hiện, với sự đồng hành của Hệ thống siêu thị Vật liệu xây dựng & Nội thất Hoa Sen Home (Tập đoàn Hoa Sen) và Ống Nhựa Hoa Sen – Dẫn nguồn hạnh phúc.
+                </p>
+                
+                <hr>
+            </div>
+            <div class="col-11 col-md-9 mx-auto col-lg-3 tinMoi">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>TIN MỚI NHẤT</p>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen3.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/Hinh-2-MAGDV-Tap-89-2048x1356.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>MC Quyền Linh, NSND Trọng Trinh xúc động, cảm phục hình ảnh...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen2.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/06/anh-1.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>Bất chấp trời đổ mưa, MC Quyền Linh cùng các nghệ sĩ vẫn...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="col-12">
+                            <a href="cauChuyen1.html">
+                                <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/05/HINH-2-MAGDV-TAP-86-2048x1366.jpg"
+                                    alt="">
+                                <div class="content">
+                                    <span>Mái ấm gia đình Việt – Tập 86: Quang Đăng, Jang Mi khóc...</span>
+                                    <p style="color: black;"><i class="fa-regular fa-clock"></i> 31 tháng 5, 2024</p>
+                                </div>
+                            </a>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="thongtin-footer">
+            <div class="container-fluid nhanHang">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/hsn-tinh-chinh-size-web-maiam.png"
+                            alt="">
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>MÁI ẤM GIA ĐÌNH VIỆT</li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon.svg"
+                                        alt=""> maiamgiadinhviet</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-1.svg"
+                                        alt=""> GoldenMoonNetwork</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> maiamgiadinhviet.htv7</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> @nghesycongchung</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>NHÀ TÀI TRỢ</li>
+                            <li><a href=""><img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Globe.svg"
+                                        alt=""> www.hoasengroup.vn</a></li>
+                            <li><a href=""><img src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Globe.svg"
+                                        alt=""> www.nhuahoasen.vn</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/Social-icon-3.svg"
+                                        alt=""> @hoasengroup.vn</a></li>
+                            <li><a href=""><img
+                                        src="https://maiamgiadinhviet.vn/wp-content/uploads/2024/01/Untitled-design-1.png"
+                                        alt=""> 0868 000 287</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-md-3">
+                        <ul>
+                            <li>ĐƠN VỊ THỰC HIỆN</li>
+                            <li><img class="thucHien"
+                                    src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/BeeComm-Logo-PNG.png"
+                                    alt=""></li>
+                            <li style="margin-top: -13px;"><img class="thucHien"
+                                    src="https://maiamgiadinhviet.vn/wp-content/uploads/2023/12/htv-giam-kich-thuoc-logo-doi-vi-tri.png"
+                                    alt=""></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-11 mx-auto">
+                        <hr>
+                    </div>
+                    <div class="col-11 mx-auto copy">
+                        <p>Copyright © 2023 Mai Am Gia Dinh Viet. All rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="asset/bootstrap/jquery.slim.min.js"></script>
+    <script src="asset/bootstrap/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="asset/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script>
+        $('.product-list').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+
+        document.querySelector('.button-search').addEventListener('click', function () {
+            var searchValue = document.getElementById('search').value.trim().toLowerCase();
+            if (searchValue === 'tin tức' || searchValue === 'tintuc') {
+                window.location.href = 'tinTuc.html';
+            } else if (searchValue === "") {
+                alert("Vui lòng nhập từ khóa tìm kiếm!");
+            } else {
+                alert("Không tìm thấy kết quả!");
+            }
+        });
+
+        // Khi nút button-search1 được nhấn, hiển thị modal
+        document.querySelector('.button-search1').addEventListener('click', function () {
+            document.getElementById('search-box').style.display = "block";
+        });
+
+        // Khi nút đóng (x) trong modal được nhấn, ẩn modal
+        document.querySelector('.huy').addEventListener('click', function () {
+            document.getElementById('search-box').style.display = "none";
+        });
+
+        // Khi nút "Tìm kiếm" trong modal được nhấn, xử lý tìm kiếm
+        document.getElementById('search-button').addEventListener('click', function () {
+            var searchQuery = document.getElementById('timKiem').value.trim().toLowerCase(); // Sửa ở đây
+            if (searchQuery === 'tin tức' || searchQuery === 'tintuc') { // Sửa ở đây
+                window.location.href = 'tinTuc.html';
+            } else if (searchQuery === "") {
+                alert("Vui lòng nhập từ khóa tìm kiếm!");
+            } else {
+                alert("Không tìm thấy kết quả!");
+            }
+        });
+    </script>
+</body>
+
+</html>
